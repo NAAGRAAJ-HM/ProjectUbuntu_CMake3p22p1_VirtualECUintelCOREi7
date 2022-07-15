@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21.1)
 
 project(
-   Ubuntu20.04LTS_CMake3.22.1_PEAQc150_VirtualECU_intelCOREi7.out
+   Ubuntu20_04LTS_CMake3_22_1_PEAQc150_VirtualECU_intelCOREi7.out
    VERSION 0.1
 )
 
@@ -18,9 +18,8 @@ add_definitions(
    -Wuninitialized
 )
 
-
 add_executable(
-   Ubuntu20.04LTS_CMake3.22.1_PEAQc150_VirtualECU_intelCOREi7.out
+   Ubuntu20_04LTS_CMake3_22_1_PEAQc150_VirtualECU_intelCOREi7.out
    source/SmbLnk2_CfgGen/CfgGen.cpp
    source/SmbLnk2_CanIf/CanIf.cpp
    source/SmbLnk2_CanTp/CanTp.cpp
@@ -84,7 +83,7 @@ add_executable(
 )
 
 target_include_directories(
-   Ubuntu20.04LTS_CMake3.22.1_PEAQc150_VirtualECU_intelCOREi7.out PUBLIC
+   Ubuntu20_04LTS_CMake3_22_1_PEAQc150_VirtualECU_intelCOREi7.out PUBLIC
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_common"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Compiler"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CfgGen"
