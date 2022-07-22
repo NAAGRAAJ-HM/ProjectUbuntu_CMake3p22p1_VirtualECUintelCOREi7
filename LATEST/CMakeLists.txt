@@ -21,6 +21,7 @@ add_definitions(
 add_executable(
    Ubuntu20_04LTS_CMake3_22_1_PEAQc150_VirtualECU_intelCOREi7.out
    source/SmbLnk2_CfgGen/CfgGen.cpp
+   source/SmbLnk2_Const/Const.cpp
    source/SmbLnk2_CanIf/CanIf.cpp
    source/SmbLnk2_CanTp/CanTp.cpp
    source/SmbLnk2_CryIf/CryIf.cpp
@@ -87,6 +88,7 @@ target_include_directories(
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_common"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Compiler"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CfgGen"
+   "${PROJECT_SOURCE_DIR}/source/SmbLnk2_Const"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CanIf"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CanNm"
    "${PROJECT_SOURCE_DIR}/source/SmbLnk2_CanSm"
